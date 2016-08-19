@@ -1,0 +1,12 @@
+{
+  "name": "replicator-RGBSimulator",
+  "version": "0.1.0",
+  "description": "A simulator for turning lights into your screen",
+  "homepage": "",
+  "authors": [
+    "Roger Camargo"
+  ],
+  "main": "main.js",
+  "keywords": [],
+  "license": "MIT"
+}
