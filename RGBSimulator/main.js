@@ -45,9 +45,10 @@ define(['HubLink', 'RIB', 'PropertiesPanel', 'Easy'], function(Hub, RIB, Ppanel,
    * This block only initiate processing with
    * actions from the hardware.
    */
-  RGBSimulator.onExecute = function(action) {
-    var color = action.toLowerCase();
-    this.canvasIcon.css("box-shadow", "0 0 20px 10px " + color);
+  RGBSimulator.onExecute = function(block) {
+    var color = block.action.toLowerCase();
+    this.canvasIcon.css("box-shadow", "0 0 38px 8px " + color);
+    this.canvasIcon.find("i").first().css('color', color);
   };
 
   // TODO: Move this to the block controller
