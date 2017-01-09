@@ -1,0 +1,14 @@
+{
+  "name": "replicator-RGBSimulator",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "replicator-RGBSimulator",
+  "scripts": {
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3"
+  }
+}
